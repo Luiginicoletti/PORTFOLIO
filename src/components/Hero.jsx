@@ -50,7 +50,7 @@ const Hero = () => {
       <div className="lg:flex lg:justify-center lg:items-center">
         <div
           className="absolute
-        top-[300px] w-full pl-6 lg:pl-0
+        top-[340px] w-full pl-6 lg:pl-0
         lg:top-[415px] lg:w-1/3 lg:left-[376px]
       "
         >
