@@ -86,7 +86,7 @@ const Hero = () => {
           </div>
 
           <div className="w-full flex justify-start mt-20 lg:mt-[75px]">
-            <a href="RESUME.PDF" download>
+            <a href="/public/RESUME.pdf" download>
               <div
                 className="border-violet-400 text-white 
                hover:text-violet-400 hover:border-violet-500 hover:text-white/90
