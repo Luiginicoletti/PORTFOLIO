@@ -27,6 +27,7 @@ import {
   udemy,
   inprogress,
   alura,
+  jest,
 } from "../assets";
 
 export const navLinks = [
@@ -166,7 +167,7 @@ const experiences = [
     company_name: "NextJS - 28.5 Horas",
     icon: nextcoder,
     iconMini: udemy,
-    iconBg: "#050816",
+    iconBg: "#151d42",
     date: "Udemy - Julho de 2022",
     points: [
    
@@ -177,8 +178,19 @@ const experiences = [
     company_name: "NextJS - 28.5 Horas",
     iconMini: udemy,
     icon: reactzero,
-    iconBg: "#050816",
+    iconBg: "#151d42",
     date: "Udemy - Julho de 2022",
+    points: [
+   
+    ],
+  },
+  {
+    title: "Jest e Test Library",
+    company_name: "Jest e Test Library - 8.0 Horas",
+    iconMini: alura,
+    icon: jest,
+    iconBg: "#151d42",
+    date: "Alura - Julho de 2023",
     points: [
    
     ],
@@ -188,12 +200,13 @@ const experiences = [
     company_name: "Engenharia de software - 86.0 Horas",
     iconMini: alura,
     icon: inprogress,
-    iconBg: "#050816",
+    iconBg: "#151d42",
     date: "Alura - Em progresso...",
     points: [
    
     ],
   },
+  
 ];
 
 const testimonials = [

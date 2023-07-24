@@ -32,12 +32,14 @@ import nextcoder from "./company/nextcoder.jpg"
 import jsninja from "./company/jsninja.jpg"
 import reactninja from "./company/reactninja.jpg"
 import inprogress from "./company/inprogress.jpg"
+import jest from "./company/jest.jpg"
 
 export {
   inprogress,
   reactzero,
   nextcoder,
   jsninja,
+  jest,
   alura,
   udemy,
   logo,
