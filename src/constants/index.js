@@ -9,6 +9,7 @@ import {
   html,
   css,
   reactjs,
+  devhatlogo,
   redux,
   tailwind,
   nodejs,
@@ -27,6 +28,9 @@ import {
   udemy,
   inprogress,
   alura,
+  devhat,
+  contact3d,
+  jsm,
   jest,
 } from "../assets";
 
@@ -39,10 +43,10 @@ export const navLinks = [
     id: "works",
     title: "Projetos",
   },
-{
- id: "experiences",
- title: "Formações",
-},
+  {
+    id: "experiences",
+    title: "Formações",
+  },
   {
     id: "contact",
     title: "Contato",
@@ -141,72 +145,44 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Devhat",
+    company_name: "Frontend JR",
+    icon: devhatlogo,
+    iconMini: devhatlogo,
+    iconBg: "#4FA5E0",
+    date: "Devhat - mar 2023 - Atualmente",
+    points: [
+      "Desenvolvimento aplicativos da web (ReactJS)",
+      "Interface de programação de aplicativos (API)",
+      "Gerenciamento de contexto com (zustand)",
+      "Desenvolvimento de interfaces de usuário (UI)",
+      "Desenvolvimento de Landing Pages",
+      "Testes automatizados (Jest)",
+      "Testes unitários (React Testing Library)",
+      "Controle de versão colaborativa com (Git)",
+      "Desenvolvimento de aplicativos mobile (React Native)",
+      "Desenvolvimento de aplicativos desktop (Electron)",
+      "Codigo limpo e consistente  (ESLint & Prettier)",
+      "Estilização (TailwindCSS, sass, styled-components)",
+    ],
+  },
+  {
     title: "ReactNinja",
     company_name: "ReactJS - 91.5 Horas",
     icon: reactninja,
     iconMini: udemy,
     iconBg: "#151d42",
-    date: "Udemy - Julho de 2022",
+    date: "Last courses 2023",
+
     points: [
-  
+      "React Ninja (91.5 Horas)",
+      "Javascript Ninja (43 Horas)",
+      "Ultimate-Next14-course (50 Horas)",
+      "https://www.jsmastery.pro/ultimate-next-course",
+      "Alura (26) Cursos Concluídos",
+      "https://cursos.alura.com.br/user/callmenicoletti",
     ],
   },
-  {
-    title: "Javascript Ninja",
-    company_name: "Javascript - 42.5 Horas",
-    icon: jsninja,
-    iconMini: udemy,
-    iconBg: "#151d42",
-    date: "Udemy - Julho de 2022",
-    points: [
-  
-    ],
-  },
-  {
-    title: "Next completo Cod3r",
-    company_name: "NextJS - 28.5 Horas",
-    icon: nextcoder,
-    iconMini: udemy,
-    iconBg: "#151d42",
-    date: "Udemy - Julho de 2022",
-    points: [
-   
-    ],
-  },
-  {
-    title: "Next completo Cod3r",
-    company_name: "NextJS - 28.5 Horas",
-    iconMini: udemy,
-    icon: reactzero,
-    iconBg: "#151d42",
-    date: "Udemy - Julho de 2022",
-    points: [
-   
-    ],
-  },
-  {
-    title: "Jest e Test Library",
-    company_name: "Jest e Test Library - 8.0 Horas",
-    iconMini: alura,
-    icon: jest,
-    iconBg: "#151d42",
-    date: "Alura - Julho de 2023",
-    points: [
-   
-    ],
-  },
-  {
-    title: "Engenharia de software",
-    company_name: "Engenharia de software - 86.0 Horas",
-    iconMini: alura,
-    icon: inprogress,
-    iconBg: "#151d42",
-    date: "Alura - Em progresso...",
-    points: [
-   
-    ],
-  },
-  
 ];
 
 const testimonials = [
@@ -238,14 +214,91 @@ const testimonials = [
 
 const projects = [
   {
-    name: "IgniteLAB",
+    name: "Devhat",
     description:
-      "A on demand video plataform with scheduled release via HandleCMS." , tags : [
+      "A institutional 3D LP FOR @Devhat OP project built with React Three Fiber and Three JS.",
+    tags: [
+      {
+        name: "React three fiber",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "pink-text-gradient",
+      },
+
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: devhat,
+    source_code_link: "https://github.com/Luiginicoletti/devhat",
+    link: "https://devhat-eight.vercel.app/",
+  },
+
+  {
+    name: "Contact 3D",
+    description:
+      "A simple contact section with a 3D animation built with React Three Fiber.",
+    tags: [
       {
         name: "React",
         color: "blue-text-gradient",
       },
-     
+
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React Three Fiber",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: contact3d,
+    source_code_link: "https://github.com/Luiginicoletti/contact3d",
+    link: "https://contact3d.vercel.app/",
+  },
+
+  {
+    name: "JSM",
+    description:
+      "A landing page for product with a filter and a search bar built with React",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GraphQl",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ApolloClient",
+        color: "white-text-gradient",
+      },
+    ],
+    image: jsm,
+    source_code_link: "https://github.com/Luiginicoletti/jsm",
+    link: "jsm-model.vercel.app",
+  },
+
+  {
+    name: "IgniteLAB",
+    description:
+      "A on demand video plataform with scheduled release via HandleCMS.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+
       {
         name: "Tailwind",
         color: "blue-text-gradient",
@@ -287,8 +340,7 @@ const projects = [
   },
   {
     name: "Metaverse",
-    description:
-      "A beautiful and modern SPA built with some UI/UX stuffs.",
+    description: "A beautiful and modern SPA built with some UI/UX stuffs.",
     tags: [
       {
         name: "React",

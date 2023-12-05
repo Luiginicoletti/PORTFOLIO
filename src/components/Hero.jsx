@@ -1,13 +1,10 @@
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
+import LaptopCanvas from "./canvas/LaptopCanvas";
+
 import Marquee from "./Marquee";
 import { Link } from "react-router-dom";
-import {
-  BsGithub,
-  BsTwitter,
-  BsInstagram,
-  BsDownload,
-} from "react-icons/bs";
+import { BsGithub, BsTwitter, BsInstagram, BsDownload } from "react-icons/bs";
 
 import { RiLinkedinFill } from "react-icons/ri";
 
@@ -19,16 +16,15 @@ const Hero = () => {
       >
         <div className="">
           <h1 className={`${styles.heroHeadText}  text-white`}>
-            <span className="text-white">
-              Its a me, Luigi
-            </span>
+            <span className="text-white">Its a me, Luigi</span>
           </h1>
           <p className={`${styles.heroSubText} lg:w-[56%]`}>
             <span className="">Olá 👋</span> eu sou ex{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-blue-400 to-cyan-300">
-               atleta profissional de esports 
+              atleta profissional de esports
             </span>{" "}
-            e adquiri muitas habilidades interessantíssimas que quero compartilhar com a comunidade de dev.
+            e adquiri muitas habilidades interessantíssimas que quero
+            compartilhar com a comunidade de dev.
           </p>
 
           {/* <div className="mt-24 flex justify-evenly"></div> */}
@@ -45,8 +41,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <LaptopCanvas />
+      {/* <ComputersCanvas /> */}
 
-      <ComputersCanvas />
       <div className="lg:flex lg:justify-center lg:items-center">
         <div
           className="absolute
@@ -60,28 +57,40 @@ const Hero = () => {
               target="_blank"
               className=""
             >
-              <BsInstagram size={26} className="text-white hover:text-violet-400 transition-all" />
+              <BsInstagram
+                size={26}
+                className="text-white hover:text-violet-400 transition-all"
+              />
             </Link>
             <Link
               to="https://github.com/Luiginicoletti"
               target="_blank"
               className=""
             >
-              <BsGithub size={26} className="text-white hover:text-violet-400 transition-all" />
+              <BsGithub
+                size={26}
+                className="text-white hover:text-violet-400 transition-all"
+              />
             </Link>
             <Link
               to="https://www.linkedin.com/in/luiginicolettipro/"
               target="_blank"
               className=""
             >
-              <RiLinkedinFill size={26} className="text-white hover:text-violet-400 transition-all" />
+              <RiLinkedinFill
+                size={26}
+                className="text-white hover:text-violet-400 transition-all"
+              />
             </Link>
             <Link
               to="https://twitter.com/nicolettiFPS"
               target="_blank"
               className=""
             >
-              <BsTwitter size={26} className="text-white hover:text-violet-400 transition-all" />
+              <BsTwitter
+                size={26}
+                className="text-white hover:text-violet-400 transition-all"
+              />
             </Link>
           </div>
 
@@ -93,8 +102,12 @@ const Hero = () => {
                  w-[144px] flex border-[1px] font-bold py-1
              rounded-md justify-evenly items-center transition-all"
               >
-                <p className="text-[1.4rem] font-extrabold text-transparent
-                 bg-clip-text bg-gradient-to-r from-violet-400 via-blue-400 to-cyan-300">meu cv</p>
+                <p
+                  className="text-[1.4rem] font-extrabold text-transparent
+                 bg-clip-text bg-gradient-to-r from-violet-400 via-blue-400 to-cyan-300"
+                >
+                  meu cv
+                </p>
                 <BsDownload size={20} className="text-cyan-400 " />
               </div>
             </a>

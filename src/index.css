@@ -27,6 +27,14 @@
   white-space: nowrap; /* Impede que o texto quebre em várias linhas */
 }
 
+.htmlScreen iframe {
+  width: 999px;
+  height: 564px;
+  border: none;
+  border-radius: 20px;
+  background: #000000;
+  opacity: 0.95;
+}
 
 * {
   margin: 0;

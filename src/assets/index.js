@@ -15,27 +15,34 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import devhatlogo from "./company/devhatlogo.jpg";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import graphql from "./tech/graphql.png"
+import graphql from "./tech/graphql.png";
 
+import jsm from "./jsm.jpg";
+import devhat from "./devhat.jpg";
 import carrent from "./carrent.jpg";
 import ignitelab from "./ignitelab.jpg";
 import metaverse from "./metaverse.jpg";
+import contact3d from "./contact3d.jpg";
 
-import alura from "./company/alura.png"
-import udemy from "./company/udemy.png"
-import reactzero from "./company/reactzero.jpg"
-import nextcoder from "./company/nextcoder.jpg"
-import jsninja from "./company/jsninja.jpg"
-import reactninja from "./company/reactninja.jpg"
-import inprogress from "./company/inprogress.jpg"
-import jest from "./company/jest.jpg"
+import alura from "./company/alura.png";
+import udemy from "./company/udemy.png";
+import reactzero from "./company/reactzero.jpg";
+import nextcoder from "./company/nextcoder.jpg";
+import jsninja from "./company/jsninja.jpg";
+import inprogress from "./company/inprogress.jpg";
+import reactninja from "./company/reactninja.jpg";
+import jest from "./company/jest.jpg";
 
 export {
   inprogress,
+  contact3d,
+  jsm,
+  devhat,
   reactzero,
   nextcoder,
   jsninja,
@@ -63,5 +70,6 @@ export {
   carrent,
   ignitelab,
   metaverse,
-  reactninja
+  reactninja,
+  devhatlogo,
 };
