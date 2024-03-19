@@ -8,6 +8,7 @@ import {
   typescript,
   html,
   css,
+  iphone,
   reactjs,
   devhatlogo,
   redux,
@@ -213,6 +214,33 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "iPhone",
+    description:
+      "A clone of iphone 15 web page using most interactive tecnologies",
+    tags: [
+      {
+        name: "React three fiber",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "pink-text-gradient",
+      },
+
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: iphone,
+    source_code_link: "https://github.com/Luiginicoletti/devhat",
+    link: "https://iphone-sepia-six.vercel.app/",
+  },
   {
     name: "Devhat",
     description:

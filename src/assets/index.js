@@ -28,6 +28,7 @@ import carrent from "./carrent.jpg";
 import ignitelab from "./ignitelab.jpg";
 import metaverse from "./metaverse.jpg";
 import contact3d from "./contact3d.jpg";
+import iphone from "./iphone.png";
 
 import alura from "./company/alura.png";
 import udemy from "./company/udemy.png";
@@ -39,6 +40,7 @@ import reactninja from "./company/reactninja.jpg";
 import jest from "./company/jest.jpg";
 
 export {
+  iphone,
   inprogress,
   contact3d,
   jsm,
