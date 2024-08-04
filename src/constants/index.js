@@ -8,6 +8,7 @@ import {
   typescript,
   html,
   css,
+  catani,
   iphone,
   reactjs,
   devhatlogo,
@@ -32,6 +33,7 @@ import {
   devhat,
   contact3d,
   jsm,
+  octopost,
   jest,
 } from "../assets";
 
@@ -215,6 +217,60 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Octopost LP",
+    description:
+      "A massive interactive landing page with a lot of components and animations.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "pink-text-gradient",
+      },
+
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: octopost,
+    source_code_link: "https://github.com/devhatt/devhatt-lp",
+    link: "https://www.figma.com/proto/wubpmFvctFSl3hspmMamgR/Octopost-LP-(Copy)?node-id=45-1160&t=rLzqTuOyr1gIyATR-1",
+  },
+  {
+    name: "Viralize Plus",
+    description:
+      "A beautifull and complex application service with a lot of requisitions and complex forms.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Nest",
+        color: "pink-text-gradient",
+      },
+
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: catani,
+    source_code_link: "https://github.com/Luiginicoletti/",
+    link: "https://www.figma.com/proto/cd5uzC5BIPuG5IEulyHu9w/Cattani---Viralize-Plus?node-id=2239-175&t=Hi7aVxS4WSPxaeXQ-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2239%3A175&show-proto-sidebar=0",
+  },
+  {
     name: "iPhone",
     description:
       "A clone of iphone 15 web page using most interactive tecnologies",
@@ -347,10 +403,10 @@ const projects = [
   {
     name: "Carhub",
     description:
-      "A car rent project built in the newest next13 with some APIs and clean code SSR/CSR.",
+      "A car rent project built in the newest next14 with some APIs and clean code SSR/CSR.",
     tags: [
       {
-        name: "Next13+",
+        name: "Next14+",
         color: "blue-text-gradient",
       },
       {

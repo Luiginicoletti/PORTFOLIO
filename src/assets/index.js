@@ -22,6 +22,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import graphql from "./tech/graphql.png";
 
+import catani from "./Catani.jpg";
+import octopost from "./octopost.gif";
 import jsm from "./jsm.jpg";
 import devhat from "./devhat.jpg";
 import carrent from "./carrent.jpg";
@@ -42,6 +44,8 @@ import jest from "./company/jest.jpg";
 export {
   iphone,
   inprogress,
+  catani,
+  octopost,
   contact3d,
   jsm,
   devhat,
